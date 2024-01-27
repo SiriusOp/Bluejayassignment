@@ -1,0 +1,27 @@
+c:\python\assingment.py:5: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df = pd.read_csv( file_path , parse_dates=['Time', 'Time Out', 'Pay Cycle Start Date', 'Pay Cycle End Date'])
+Employees who have worked for 7 consecutive days:
+Empty DataFrame
+Columns: [Employee Name, Time]
+Index: []
+
+Employees with less than 10 hours but greater than 1 hour between shifts:
+                        Employee Name                Time            Time Out
+54                   CaMaXaWE, CeghaW 2023-09-11 19:01:00 2023-09-11 20:00:00
+65                   CaMaXaWE, CeghaW 2023-09-20 18:32:00 2023-09-20 19:33:00
+163                        Xee, XaCar 2023-09-12 00:00:00 2023-09-12 04:30:00
+174                        Xee, XaCar 2023-09-18 23:00:00 2023-09-19 03:30:00
+177                        Xee, XaCar 2023-09-19 23:00:00 2023-09-20 03:30:00
+277              De Xa Cerda, IgWaciE 2023-09-22 15:00:00 2023-09-22 18:50:00
+312                  MraW, WiXXiaC Ha 2023-09-21 08:00:00 2023-09-21 12:30:00
+592                  CEreira Jr, JEse 2023-09-14 08:00:00 2023-09-14 14:00:00
+1037  DeXgadiXXE REdarMe, ChrisMiaW S 2023-09-17 23:27:00 2023-09-18 03:30:00
+1075           HaCiXMEW, DeaWMe DevEW 2023-09-21 18:45:00 2023-09-21 18:45:00
+1162         REdrigAez, GraWdEW AWgeX 2023-09-23 15:45:00 2023-09-23 19:17:00
+1328                 SaWchez, ArWAXfE 2023-09-11 02:17:00 2023-09-11 06:20:00
+
+Employees who have worked for more than 14 hours in a single shift:
+                        Employee Name                Time            Time Out
+1036  DeXgadiXXE REdarMe, ChrisMiaW S 2023-09-17 04:00:00 2023-09-17 19:30:00
+
+
